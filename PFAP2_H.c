@@ -15,15 +15,15 @@ void TEST_REP(){
 
     printf("0------------------------------------------0\n");
     printf("| Responda com:                            |\n");
-    printf("| 4 - OpÁ„o que melhor te descreve         |\n");
-    printf("| 3 - Segunda melhor opÁ„oo que te descreva |\n");
-    printf("| 2 - PrÛxima opÁ„o que te descreve        |\n");
+    printf("| 4 - Op√ß√£o que melhor te descreve         |\n");
+    printf("| 3 - Segunda melhor op√ß√£oo que te descreva |\n");
+    printf("| 2 - Pr√≥xima op√ß√£o que te descreve        |\n");
     printf("| 1 - A que menos te descreve              |\n");
     printf("0------------------------------------------0\n\n");
 
     printf("0-----------------------------------------------0\n");
-    printf("| 1) Eu tomo decisıes importantes baseado em:   |\n");
-    printf("| 1 - IntuiÁ„oo:                               |\n");
+    printf("| 1) Eu tomo decis√µes importantes baseado em:   |\n");
+    printf("| 1 - Intui√ß√£oo:                               |\n");
     printf("| 2 - O que me soa melhor:                      |\n");
     printf("| 3 - O que me parece melhor:                   |\n");
     printf("| 4 - Um estudo preciso e minucioso do assunto: |\n");
@@ -35,7 +35,7 @@ void TEST_REP(){
 
     while((nota[0]!=1)&&(nota[0]!=2)&&(nota[0]!=3)&&(nota[0]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[0]);
 
     };
@@ -45,7 +45,7 @@ void TEST_REP(){
 
     while((nota[1]!=1)&&(nota[1]!=2)&&(nota[1]!=3)&&(nota[1]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[1]);
 
     };
@@ -55,7 +55,7 @@ void TEST_REP(){
 
     while((nota[2]!=1)&&(nota[2]!=2)&&(nota[2]!=3)&&(nota[2]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[2]);
 
     };
@@ -65,18 +65,18 @@ void TEST_REP(){
 
     while((nota[3]!=1)&&(nota[3]!=2)&&(nota[3]!=3)&&(nota[3]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[3]);
 
     };
 
     system("cls");
     printf("0----------------------------------------------------------------------0\n");
-    printf("| 2) Durante uma discuss„o eu sou mais influenciado por:               |\n");
+    printf("| 2) Durante uma discuss√£o eu sou mais influenciado por:               |\n");
     printf("| 1 - Tom de voz da outra pessoa:                                      |\n");
-    printf("| 2 - Se eu posso ou n„o ver o argumento da outra pessoa:              |\n");
-    printf("| 3 - Se eu entro em contato ou n„o com os sentimentos reais do outro: |\n");
-    printf("| 4 - A lÛgica do argumento da outra pessoa:                           |\n");
+    printf("| 2 - Se eu posso ou n√£o ver o argumento da outra pessoa:              |\n");
+    printf("| 3 - Se eu entro em contato ou n√£o com os sentimentos reais do outro: |\n");
+    printf("| 4 - A l√≥gica do argumento da outra pessoa:                           |\n");
     printf("0----------------------------------------------------------------------0\n\n");
 
     printf("\n1 - ");
@@ -84,7 +84,7 @@ void TEST_REP(){
 
     while((nota[4]!=1)&&(nota[4]!=2)&&(nota[4]!=3)&&(nota[4]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[4]);
 
     };
@@ -94,7 +94,7 @@ void TEST_REP(){
 
     while((nota[5]!=1)&&(nota[5]!=2)&&(nota[5]!=3)&&(nota[5]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[5]);
 
     };
@@ -104,7 +104,7 @@ void TEST_REP(){
 
     while((nota[6]!=1)&&(nota[6]!=2)&&(nota[6]!=3)&&(nota[6]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[6]);
 
     };
@@ -114,7 +114,7 @@ void TEST_REP(){
 
     while((nota[7]!=1)&&(nota[7]!=2)&&(nota[7]!=3)&&(nota[7]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[7]);
 
     };
@@ -135,7 +135,7 @@ void TEST_REP(){
 
     while((nota[8]!=1)&&(nota[8]!=2)&&(nota[8]!=3)&&(nota[8]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[8]);
 
     };
@@ -145,7 +145,7 @@ void TEST_REP(){
 
     while((nota[9]!=1)&&(nota[9]!=2)&&(nota[9]!=3)&&(nota[9]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[9]);
 
     };
@@ -155,7 +155,7 @@ void TEST_REP(){
 
     while((nota[10]!=1)&&(nota[10]!=2)&&(nota[10]!=3)&&(nota[10]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[10]);
 
     };
@@ -165,7 +165,7 @@ void TEST_REP(){
 
     while((nota[11]!=1)&&(nota[11]!=2)&&(nota[11]!=3)&&(nota[11]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[11]);
 
     };
@@ -173,11 +173,11 @@ void TEST_REP(){
     system("cls");
 
     printf("0---------------------------------------------------------------------------0\n");
-    printf("| 4) … muito f·cil pra mim:                                                 |\n");
+    printf("| 4) √â muito f√°cil pra mim:                                                 |\n");
     printf("| 1 - Achar o volume e a sintonia ideais num sistema de som:                |\n");
     printf("| 2 - Selecionar o ponto mais relevante relativo a um assunto interessante: |\n");
-    printf("| 3 - Escolher os mÛveis mais confort?veis:                                 |\n");
-    printf("| 4 - Escolher as combinaÁıes de cores mais ricas e atraentes:              |\n");
+    printf("| 3 - Escolher os m√≥veis mais confort?veis:                                 |\n");
+    printf("| 4 - Escolher as combina√ß√µes de cores mais ricas e atraentes:              |\n");
     printf("0---------------------------------------------------------------------------0\n\n");
 
     printf("\n1 - ");
@@ -185,7 +185,7 @@ void TEST_REP(){
 
     while((nota[12]!=1)&&(nota[12]!=2)&&(nota[12]!=3)&&(nota[12]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[12]);
 
     };
@@ -195,7 +195,7 @@ void TEST_REP(){
 
     while((nota[13]!=1)&&(nota[13]!=2)&&(nota[13]!=3)&&(nota[13]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[13]);
 
     };
@@ -205,7 +205,7 @@ void TEST_REP(){
 
     while((nota[14]!=1)&&(nota[14]!=2)&&(nota[14]!=3)&&(nota[14]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[14]);
 
     };
@@ -215,7 +215,7 @@ void TEST_REP(){
 
     while((nota[15]!=1)&&(nota[15]!=2)&&(nota[15]!=3)&&(nota[15]!=4)){
 
-        printf("\nVALOR ATRIBUÕDO INV¡LIDO\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nVALOR ATRIBU√çDO INV√ÅLIDO\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &nota[15]);
 
     };
@@ -226,8 +226,8 @@ void TEST_REP(){
     printf("| 5) Eu me percebo assim:                                                 |\n");
     printf("| 1 - Se estou muito em sintonia com os sons do ambiente:                 |\n");
     printf("| 2 - Eu sou muito capaz de raciocinar com fatos e dados novos:           |\n");
-    printf("| 3 - Eu sou muito sensÌvel com a maneira que a roupa veste o meu corpo:  |\n");
-    printf("| 4 - Eu responto fortemente ‡s cores e ‡ aparÍncia de uma sala:          |\n");
+    printf("| 3 - Eu sou muito sens√≠vel com a maneira que a roupa veste o meu corpo:  |\n");
+    printf("| 4 - Eu responto fortemente √†s cores e √† apar√™ncia de uma sala:          |\n");
     printf("0-------------------------------------------------------------------------0\n");
 
     printf("\n1 - ");
@@ -277,8 +277,8 @@ void TEST_REP(){
 
     system("cls");
     printf("0-----------------------------0\n");
-    printf("| O TESTE INDICOU QUE VOC  …: |\n");
-    printf("| %d%% CINEST…SICO            |\n",cin);
+    printf("| O TESTE INDICOU QUE VOC√ä √â: |\n");
+    printf("| %d%% CINEST√âSICO            |\n",cin);
     printf("| %d%% AUDITIVO               |\n",aud);
     printf("| %d%% VISUAL                 |\n",vis);
     printf("| %d%% DIGITAL                |\n",dig);
@@ -288,7 +288,7 @@ void TEST_REP(){
         printf("0----------------------------------------------0\n");
         printf("| Deseja ler sobre alguma das caracteristicas? |\n");
         printf("| 1: VISUAL                                    |\n");
-        printf("| 2: CINEST…SICO                               |\n");
+        printf("| 2: CINEST√âSICO                               |\n");
         printf("| 3: AUDITIVO                                  |\n");
         printf("| 4: DIGITAL                                   |\n");
         printf("| 5: SAIR                                      |\n");
@@ -303,17 +303,17 @@ void TEST_REP(){
             system("cls");
             printf("0=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=0\n");
             printf("| O que significa ser VISUAL ?                                                                                                                                                              |\n");
-            printf("| A pessoa com predomin‚ncia do canal VISUAL È ligada na beleza e estÈtica, em formas e detalhes. Tem uma postura corporal rÌgida e sua respiraÁ„o È tor·cica.                              |\n");
-            printf("| Ela fala muito rapidamente porque as imagens se sucedem em sua mente como um filme. Entre o pr·tico e o bonito, a pessoa VISUAL sempre escolher· o bonito. … uma                          |\n");
-            printf("| pessoa que preza por arrumaÁ„o e ordem e para atender o que lhe dizem, a pessoa VISUAL precisa que ""mostrem"" o que È, n„o d· tanto valor ‡s palavras e nem sempre                       |\n");
-            printf("| reage bem ao toque, ao contr·rio da pessoa CinestÈsica.                                                                                                                                   |\n");
-            printf("| A pessoa em que predomina o modelo visual È mais r·pida, ansiosa, agitada e impulsiva. Quanto mais visual, mais È mandona, franca e sincera.                                              |\n");
-            printf("| Bons chefes, gerentes e gestores, em geral, s„o visuais. Outros elementos importantes s„o a capacidade de desempenhar v·rias tarefas ao mesmo tempo, gostar de prazos apertados, implantar|\n");
-            printf("| projetos e cumprir metas. S„o pessoas que costumam projetar o futuro, prestam atenÁ„o aos detalhes, gostam de organizaÁ„o e harmonia, sua aprendizagem È                                  |\n");
+            printf("| A pessoa com predomin√¢ncia do canal VISUAL √© ligada na beleza e est√©tica, em formas e detalhes. Tem uma postura corporal r√≠gida e sua respira√ß√£o √© tor√°cica.                              |\n");
+            printf("| Ela fala muito rapidamente porque as imagens se sucedem em sua mente como um filme. Entre o pr√°tico e o bonito, a pessoa VISUAL sempre escolher√° o bonito. √â uma                          |\n");
+            printf("| pessoa que preza por arruma√ß√£o e ordem e para atender o que lhe dizem, a pessoa VISUAL precisa que ""mostrem"" o que √©, n√£o d√° tanto valor √†s palavras e nem sempre                       |\n");
+            printf("| reage bem ao toque, ao contr√°rio da pessoa Cinest√©sica.                                                                                                                                   |\n");
+            printf("| A pessoa em que predomina o modelo visual √© mais r√°pida, ansiosa, agitada e impulsiva. Quanto mais visual, mais √© mandona, franca e sincera.                                              |\n");
+            printf("| Bons chefes, gerentes e gestores, em geral, s√£o visuais. Outros elementos importantes s√£o a capacidade de desempenhar v√°rias tarefas ao mesmo tempo, gostar de prazos apertados, implantar|\n");
+            printf("| projetos e cumprir metas. S√£o pessoas que costumam projetar o futuro, prestam aten√ß√£o aos detalhes, gostam de organiza√ß√£o e harmonia, sua aprendizagem √©                                  |\n");
             printf("| estimulada por meios de imagens, cores, formatos e luzes                                                                                                                                  |\n");
-            printf("| TÈcnicas de estudo e assimilaÁ„o para pessoas VISUAIS:                                                                                                                                    |\n");
-            printf("| Sublinhar, usar diferentes cores, marcadores, fluxogramas, desenhos, pÙsteres, slides, palestrantes que gesticulam e utilizam linguagem cÍnica, pictÛrica, livros,                        |\n");
-            printf("| texto com diagramas e figuras, gr·ficos, sÌmbolos.                                                                                                                                        |\n");
+            printf("| T√©cnicas de estudo e assimila√ß√£o para pessoas VISUAIS:                                                                                                                                    |\n");
+            printf("| Sublinhar, usar diferentes cores, marcadores, fluxogramas, desenhos, p√¥steres, slides, palestrantes que gesticulam e utilizam linguagem c√™nica, pict√≥rica, livros,                        |\n");
+            printf("| texto com diagramas e figuras, gr√°ficos, s√≠mbolos.                                                                                                                                        |\n");
             printf("0=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=0\n");
 
         break;
@@ -325,20 +325,20 @@ void TEST_REP(){
 
             system("cls");
             printf("0======================================================================================================================================================================0\n");
-            printf("| O que significa ser CINEST…SICO ?                                                                                                                                    |\n");
-            printf("| S„o as pessoas que gostam de tocar e sentir as coisas do mundo. SensaÁıes e sentimentos s„o palavras chave de suas decisıes. Seu processo de aprendizagem È          |\n");
-            printf("| r·pido ao se envolverem com o conte˙do e s„o expostas a estÌmulos pr·ticos de execuÁ„o de experimentos e interaÁ„o em grupo.                                         |\n");
-            printf("| A pessoa com predomin‚ncia do canal CINEST…SICO dos 3 tipos, o mais sujeito ao sofrimento. Para esta pessoa todas as experiÍncias s„o fÌsicas.                       |\n");
-            printf("| Esta pessoa prefere conforto a beleza e busca sempre o bem-estar, o prazer e o aconchego. Este tipo de pessoa precisa ser abraÁaada, tocada, beijada                 |\n");
-            printf("| para que se sinta amada. Ela prefere roupas velhas e confort·veis, sapatos que n„o apertam, nadar, pisar na areia, estar junto da natureza.                          |\n");
-            printf("| As pessoas CINEST…SICAS possuem o tom de voz baixo, ritmo lento e respiraÁ„o abdominal. Gostam de m˙sicas lentas e baladas e se                                      |\n");
-            printf("| sentem agredidas quando n„o s„o correspondidas em sua necessidade de contato corporal. … socialmente orientado. Gosta de gente, de falar,                            |\n");
-            printf("| de aparecer; adora eventos, festas e oportunidades para comunicaÁ„o. A desordem reina, mas a criatividade È solta. … extrovertido                                    |\n");
-            printf("| e precisa trabalhar em equipe. Gosta de correr riscos, prefere trabalhar na rua ou em funÁıes que exijam contato com pessoas ou express„o verbal de ideias.          |\n");
-            printf("| TÈcnicas de estudo e assimilaÁ„o para pessoas CINEST…SICAS:                                                                                                          |\n");
-            printf("| Todos os seus sentidos - vis„o, tato, paladar, olfato, audiÁ„o, laboratÛrios, viagens de campo, passeios de campo/excursıes, exemplos de princÌpios                  |\n");
-            printf("| Palestras que d„o exemplos da vida real, aplicaÁıes, abordagens m„o na massa, (inform·tica), tentativa e erro, coleÁıes de tipos de pedras, plantas, conchas, grama  |\n");
-            printf("| ExibiÁıes, amostras, fotografias, receitas - soluÁıes para problemas, folhas de provas antigas.                                                                      |\n");
+            printf("| O que significa ser CINEST√âSICO ?                                                                                                                                    |\n");
+            printf("| S√£o as pessoas que gostam de tocar e sentir as coisas do mundo. Sensa√ß√µes e sentimentos s√£o palavras chave de suas decis√µes. Seu processo de aprendizagem √©          |\n");
+            printf("| r√°pido ao se envolverem com o conte√∫do e s√£o expostas a est√≠mulos pr√°ticos de execu√ß√£o de experimentos e intera√ß√£o em grupo.                                         |\n");
+            printf("| A pessoa com predomin√¢ncia do canal CINEST√âSICO dos 3 tipos, o mais sujeito ao sofrimento. Para esta pessoa todas as experi√™ncias s√£o f√≠sicas.                       |\n");
+            printf("| Esta pessoa prefere conforto a beleza e busca sempre o bem-estar, o prazer e o aconchego. Este tipo de pessoa precisa ser abra√ßaada, tocada, beijada                 |\n");
+            printf("| para que se sinta amada. Ela prefere roupas velhas e confort√°veis, sapatos que n√£o apertam, nadar, pisar na areia, estar junto da natureza.                          |\n");
+            printf("| As pessoas CINEST√âSICAS possuem o tom de voz baixo, ritmo lento e respira√ß√£o abdominal. Gostam de m√∫sicas lentas e baladas e se                                      |\n");
+            printf("| sentem agredidas quando n√£o s√£o correspondidas em sua necessidade de contato corporal. √â socialmente orientado. Gosta de gente, de falar,                            |\n");
+            printf("| de aparecer; adora eventos, festas e oportunidades para comunica√ß√£o. A desordem reina, mas a criatividade √© solta. √â extrovertido                                    |\n");
+            printf("| e precisa trabalhar em equipe. Gosta de correr riscos, prefere trabalhar na rua ou em fun√ß√µes que exijam contato com pessoas ou express√£o verbal de ideias.          |\n");
+            printf("| T√©cnicas de estudo e assimila√ß√£o para pessoas CINEST√âSICAS:                                                                                                          |\n");
+            printf("| Todos os seus sentidos - vis√£o, tato, paladar, olfato, audi√ß√£o, laborat√≥rios, viagens de campo, passeios de campo/excurs√µes, exemplos de princ√≠pios                  |\n");
+            printf("| Palestras que d√£o exemplos da vida real, aplica√ß√µes, abordagens m√£o na massa, (inform√°tica), tentativa e erro, cole√ß√µes de tipos de pedras, plantas, conchas, grama  |\n");
+            printf("| Exibi√ß√µes, amostras, fotografias, receitas - solu√ß√µes para problemas, folhas de provas antigas.                                                                      |\n");
             printf("0======================================================================================================================================================================0\n");
 
         break;
@@ -350,19 +350,19 @@ void TEST_REP(){
             system("cls");
             printf("0------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------0\n");
             printf("| O que significa ser AUDITIVO ?                                                                                                                                                     |\n");
-            printf("| A pessoa com predomin‚ncia AUDITIVA, n„o d· grande valor ‡s aparÍncias, mas sim ao bom papo, bom senso e inteligÍncia. S„o equilibradas e est„o sempre prontas                     |\n");
-            printf("| para discutir os problemas pois acreditam na lÛgica dos argumentos. O tom da voz È mÈdio, a respiraÁ„o È tor·cica e abdominal.                                                     |\n");
-            printf("| A memÛria para os sons È fant·stica: s„o capazes de lembrar-se de coisas que lhes foram ditas h· muitos anos atr·s.                                                                |\n");
-            printf("| O barulho, vozes estridentes ou ·speras ferem as pessoas auditivas. Apreciam m˙sicas com letras bem elaboradas, que passam uma mensagem consistente.                               |\n");
-            printf("| Para ter certeza de alguma coisa, o auditivo precisa ouvir, do contr·rio, n„o acreditar·.                                                                                          |\n");
-            printf("| Consegue se concentrar e guardar informaÁıes apenas ouvindo-as, gosta de m˙sica e de falar ao telefone, com pensamento lÛgico e pr·tico, È uma pessoa que busca aÁ„o e pioneirismo |\n");
-            printf("| … uma pessoa mais calma, tranquila, ponderada; prefere ouvir do que falar; È detalhista, organizada, tÌmida e perfeccionista. Prefere o previsÌvel e a rotina.                     |\n");
-            printf("| … mais focada em tarefas e processos do que em gente, ilustra. … rÌgido e formal. Gosta de tabelas, gr·ficos, concentraÁ„o; È alguÈm que n„o se importa de                         |\n");
-            printf("| ter de refazer v·rias vezes as mesmas coisas, contanto que estejam corretas. Para um auditivo, trabalhar com an·lises e c·lculos È um prazer                                       |\n");
-            printf("| TÈcnicas de estudo e assimilaÁ„o para pessoas AUDITIVAS:                                                                                                                           |\n");
-            printf("| Participe das aulas, Participe das discussıes e tutoriais, Discuta tÛpicos com outras pessoas, Discuta tÛpicos com seus professores, Explique novas ideias para outras pessoas     |\n");
-            printf("| Utilize um gravador, Lembre-se dos exemplos interessantes, histÛrias, piadas, Descreva os tÌtulos, figuras e outros aspectos visuais para alguÈm que n„o estava l·                 |\n");
-            printf("| Deixe espaÁos em suas anotaÁıes para um repasse posterior ou preenchimento?                                                                                                        |\n");
+            printf("| A pessoa com predomin√¢ncia AUDITIVA, n√£o d√° grande valor √†s apar√™ncias, mas sim ao bom papo, bom senso e intelig√™ncia. S√£o equilibradas e est√£o sempre prontas                     |\n");
+            printf("| para discutir os problemas pois acreditam na l√≥gica dos argumentos. O tom da voz √© m√©dio, a respira√ß√£o √© tor√°cica e abdominal.                                                     |\n");
+            printf("| A mem√≥ria para os sons √© fant√°stica: s√£o capazes de lembrar-se de coisas que lhes foram ditas h√° muitos anos atr√°s.                                                                |\n");
+            printf("| O barulho, vozes estridentes ou √°speras ferem as pessoas auditivas. Apreciam m√∫sicas com letras bem elaboradas, que passam uma mensagem consistente.                               |\n");
+            printf("| Para ter certeza de alguma coisa, o auditivo precisa ouvir, do contr√°rio, n√£o acreditar√°.                                                                                          |\n");
+            printf("| Consegue se concentrar e guardar informa√ß√µes apenas ouvindo-as, gosta de m√∫sica e de falar ao telefone, com pensamento l√≥gico e pr√°tico, √© uma pessoa que busca a√ß√£o e pioneirismo |\n");
+            printf("| √â uma pessoa mais calma, tranquila, ponderada; prefere ouvir do que falar; √© detalhista, organizada, t√≠mida e perfeccionista. Prefere o previs√≠vel e a rotina.                     |\n");
+            printf("| √â mais focada em tarefas e processos do que em gente, ilustra. √â r√≠gido e formal. Gosta de tabelas, gr√°ficos, concentra√ß√£o; √© algu√©m que n√£o se importa de                         |\n");
+            printf("| ter de refazer v√°rias vezes as mesmas coisas, contanto que estejam corretas. Para um auditivo, trabalhar com an√°lises e c√°lculos √© um prazer                                       |\n");
+            printf("| T√©cnicas de estudo e assimila√ß√£o para pessoas AUDITIVAS:                                                                                                                           |\n");
+            printf("| Participe das aulas, Participe das discuss√µes e tutoriais, Discuta t√≥picos com outras pessoas, Discuta t√≥picos com seus professores, Explique novas ideias para outras pessoas     |\n");
+            printf("| Utilize um gravador, Lembre-se dos exemplos interessantes, hist√≥rias, piadas, Descreva os t√≠tulos, figuras e outros aspectos visuais para algu√©m que n√£o estava l√°                 |\n");
+            printf("| Deixe espa√ßos em suas anota√ß√µes para um repasse posterior ou preenchimento?                                                                                                        |\n");
             printf("0------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------0\n");
 
         break;
@@ -374,18 +374,18 @@ void TEST_REP(){
             system("cls");
             printf("0################################################################################################################################################################################################################################0\n");
             printf("| O que significa ser DIGITAL ?                                                                                                                                                                                                  |\n");
-            printf("| VocÍ j· percebeu que na sua cabeÁa tem uma voz que conversa com vocÍ? Essa voz ‡s vezes aparece pra fazer perguntas ou criticar algumas coisas.                                                                                |\n");
-            printf("| Mas, tambÈm para responder e entender o porquÍ das coisas. A pessoa digital È a pessoa que convive com essa voz com mais Ínfase.                                                                                               |\n");
-            printf("| Vive conversando com ela mesma. AtÈ quando conversa com outra pessoa, ela conversa ao mesmo tempo com ela mesma, na mente dela.                                                                                                |\n");
-            printf("| Lembrando tem duas maneiras de aprender as coisas: atravÈs de fatores externos e internos. Ent„o, a digital tem mais facilidade de aprender internamente.                                                                      |\n");
-            printf("| Ela com ela mesma. Tipo uma filÛsofa. … inteligentÌssima, desconfiada, crÌtica, curiosa e observadora. Precisa entender dos detalhes de tudo.                                                                                  |\n");
-            printf("| Ent„o, costuma fazer muitas perguntas. Quando ela ouve uma histÛria, quer entender os detalhes e analisar para ver se faz sentido.                                                                                             |\n");
-            printf("| Quando ela conta a histÛria, comenta sobre o porque de todas as coisas que est„o acontecendo. O lado ruim È que se ela n„o souber lidar com isso, vai acabar se estressando                                                    |\n");
-            printf("| muito e tambÈm estressando os outros. Porque ninguÈm aguenta uma pessoa que fica enchendo o saco com todo tipo de pergunta nÈ. Os pensamentos em sua mente a atrapalham em manter o foco.                                      |\n");
-            printf("| TÈcnicas de estudo e assimilaÁ„o para pessoas DIGITAIS:                                                                                                                                                                        |\n");
-            printf("| Leia bastante conte˙do e reflita sobre. Se esforce atÈ tudo fazer sentido pra vocÍ. Se esforce para ficar calmo e tranquilo. Pratique a meditaÁ„o.                                                                             |\n");
-            printf("| N„o seja multitarefas, faÁa uma coisa de cada vez. Se concentre. Organize seus pensamentos. Pode ser que muita coisa que passa pela sua cabeÁa, n„o seja relevante. Ent„o, tente analisar se seus pensamentos s„o importantes. |\n");
-            printf("| Resolva exercÌcios (questıes de provas mesmo) relacionados ao tema que quer aprender.                                                                                                                                          |\n");
+            printf("| Voc√™ j√° percebeu que na sua cabe√ßa tem uma voz que conversa com voc√™? Essa voz √†s vezes aparece pra fazer perguntas ou criticar algumas coisas.                                                                                |\n");
+            printf("| Mas, tamb√©m para responder e entender o porqu√™ das coisas. A pessoa digital √© a pessoa que convive com essa voz com mais √™nfase.                                                                                               |\n");
+            printf("| Vive conversando com ela mesma. At√© quando conversa com outra pessoa, ela conversa ao mesmo tempo com ela mesma, na mente dela.                                                                                                |\n");
+            printf("| Lembrando tem duas maneiras de aprender as coisas: atrav√©s de fatores externos e internos. Ent√£o, a digital tem mais facilidade de aprender internamente.                                                                      |\n");
+            printf("| Ela com ela mesma. Tipo uma fil√≥sofa. √â inteligent√≠ssima, desconfiada, cr√≠tica, curiosa e observadora. Precisa entender dos detalhes de tudo.                                                                                  |\n");
+            printf("| Ent√£o, costuma fazer muitas perguntas. Quando ela ouve uma hist√≥ria, quer entender os detalhes e analisar para ver se faz sentido.                                                                                             |\n");
+            printf("| Quando ela conta a hist√≥ria, comenta sobre o porque de todas as coisas que est√£o acontecendo. O lado ruim √© que se ela n√£o souber lidar com isso, vai acabar se estressando                                                    |\n");
+            printf("| muito e tamb√©m estressando os outros. Porque ningu√©m aguenta uma pessoa que fica enchendo o saco com todo tipo de pergunta n√©. Os pensamentos em sua mente a atrapalham em manter o foco.                                      |\n");
+            printf("| T√©cnicas de estudo e assimila√ß√£o para pessoas DIGITAIS:                                                                                                                                                                        |\n");
+            printf("| Leia bastante conte√∫do e reflita sobre. Se esforce at√© tudo fazer sentido pra voc√™. Se esforce para ficar calmo e tranquilo. Pratique a medita√ß√£o.                                                                             |\n");
+            printf("| N√£o seja multitarefas, fa√ßa uma coisa de cada vez. Se concentre. Organize seus pensamentos. Pode ser que muita coisa que passa pela sua cabe√ßa, n√£o seja relevante. Ent√£o, tente analisar se seus pensamentos s√£o importantes. |\n");
+            printf("| Resolva exerc√≠cios (quest√µes de provas mesmo) relacionados ao tema que quer aprender.                                                                                                                                          |\n");
             printf("0################################################################################################################################################################################################################################0\n");
 
         break;
@@ -405,11 +405,11 @@ void TEST_REP(){
 
             system("cls");
 
-            printf("ENTRADA INV¡LIDA! DIGITE NOVAMENTE:\n");
+            printf("ENTRADA INV√ÅLIDA! DIGITE NOVAMENTE:\n");
         printf("0----------------------------------------------0\n");
-        printf("| Deseja ler sobre alguma das caracterÌsticas? |\n");
+        printf("| Deseja ler sobre alguma das caracter√≠sticas? |\n");
         printf("| 1: VISUAL                                    |\n");
-        printf("| 2: CINEST…SICO                               |\n");
+        printf("| 2: CINEST√âSICO                               |\n");
         printf("| 3: AUDITIVO                                  |\n");
         printf("| 4: DIGITAL                                   |\n");
         printf("| 5: SAIR                                      |\n");
@@ -434,7 +434,7 @@ void ROT_REL(){
 
     system("cls");
     printf("0------------------------------------------------------------------------------------------------------------------------------------------------------0\n");
-    printf("| Ol·, seja bem-vindo(a) ao question·rio de perfil de produtividade da nossa agenda. Ele o ajudar· a traÁar um perfil produtivo e otimizar· sua rotina!| \n");
+    printf("| Ol√°, seja bem-vindo(a) ao question√°rio de perfil de produtividade da nossa agenda. Ele o ajudar√° a tra√ßar um perfil produtivo e otimizar√° sua rotina!| \n");
     printf("0------------------------------------------------------------------------------------------------------------------------------------------------------0\n\n");
 
     //printf("Ser?o x perguntas\n\n");
@@ -442,17 +442,17 @@ void ROT_REL(){
     printf("POR FAVOR, RESPONDA\n\n");
 
     printf("0-----------------------------0\n");
-    printf("| Em qual destes vocÍ dorme?  |\n");
+    printf("| Em qual destes voc√™ dorme?  |\n");
     printf("| 1- Madrugada(00h a 06h)     |\n");
-    printf("| 2- Manh„(06h ‡s 12h)        |\n");
-    printf("| 3- Tarde(12h atÈ 18h)       |\n");
-    printf("| 4- Noite(18h atÈ 00h)       |\n");
+    printf("| 2- Manh√£(06h √†s 12h)        |\n");
+    printf("| 3- Tarde(12h at√© 18h)       |\n");
+    printf("| 4- Noite(18h at√© 00h)       |\n");
     printf("0-----------------------------0\n");
     scanf("%d", &r[0]);
 
     while((r[0]!=1)&&(r[0]!=2)&&(r[0]!=3)&&(r[0]!=4)){
 
-        printf("\nValor atribuÌdo inv·lido\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nValor atribu√≠do inv√°lido\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &r[0]);
 
     };
@@ -496,13 +496,13 @@ void ROT_REL(){
     printf("| 1-Estuda e trabalha                                     |\n");
     printf("| 2-Somente estuda                                        |\n");
     printf("| 3-Somente trabalha                                      |\n");
-    printf("| 4-Nenhuma das opÁıes anteriores                         |\n");
+    printf("| 4-Nenhuma das op√ß√µes anteriores                         |\n");
     printf("0---------------------------------------------------------0\n");
     scanf("%d", &r[9]);
 
     while((r[0]!=1)&&(r[9]!=2)&&(r[9]!=3)&&(r[9]!=4)){
 
-        printf("\nValor atribuÈdo inv·lido\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+        printf("\nValor atribu√©do inv√°lido\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
         scanf("%d", &r[9]);
 
     };
@@ -512,17 +512,17 @@ void ROT_REL(){
         system("cls");
 
         printf("0---------------------------------------------------------0\n");
-        printf("| Em qual hor·rio vocÍ costuma estudar?                   |\n");
+        printf("| Em qual hor√°rio voc√™ costuma estudar?                   |\n");
         printf("| 1- Madrugada(00h a 06h)                                 |\n");
-        printf("| 2- Manh„(06h ‡s 12h)                                    |\n");
-        printf("| 3- Tarde(12h atÈ 18h)                                   |\n");
-        printf("| 4- Noite(18h atÈ 00h)                                   |\n");
+        printf("| 2- Manh√£(06h √†s 12h)                                    |\n");
+        printf("| 3- Tarde(12h at√© 18h)                                   |\n");
+        printf("| 4- Noite(18h at√© 00h)                                   |\n");
         printf("0---------------------------------------------------------0\n");
         scanf("%d", &r[1]);
 
         while((r[1]!=1)&&(r[1]!=2)&&(r[1]!=3)&&(r[1]!=4)){
 
-            printf("\nValor atribuÌdo inv·lido\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+            printf("\nValor atribu√≠do inv√°lido\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
             scanf("%d", &r[1]);
 
         };
@@ -566,17 +566,17 @@ void ROT_REL(){
         system("cls");
 
         printf("0---------------------------------------------------------0\n");
-        printf("| Em qual hor·rio vocÍ trabalha?                          |\n");
+        printf("| Em qual hor√°rio voc√™ trabalha?                          |\n");
         printf("| 1- Madrugada(00h a 06h)                                 |\n");
-        printf("| 2- Manh„(06h ‡s 12h)                                    |\n");
-        printf("| 3- Tarde(12h atÈ 18h)                                   |\n");
-        printf("| 4- Noite(18h atÈ 00h)                                   |\n");
+        printf("| 2- Manh√£(06h √†s 12h)                                    |\n");
+        printf("| 3- Tarde(12h at√© 18h)                                   |\n");
+        printf("| 4- Noite(18h at√© 00h)                                   |\n");
         printf("0---------------------------------------------------------0\n");
         scanf("%d", &r[2]);
 
         while((r[2]!=1)&&(r[2]!=2)&&(r[2]!=3)&&(r[2]!=4)){
 
-            printf("\nValor atribuÌdo inv·lido\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+            printf("\nValor atribu√≠do inv√°lido\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
             scanf("%d", &r[2]);
 
         };
@@ -624,17 +624,17 @@ void ROT_REL(){
         system("cls");
 
         printf("0---------------------------------------------------------0\n");
-        printf("| Em qual hor·rio vocÍ costuma estudar?                   |\n");
+        printf("| Em qual hor√°rio voc√™ costuma estudar?                   |\n");
         printf("| 1- Madrugada(00h a 06h)                                 |\n");
-        printf("| 2- Manh„(06h ‡s 12h)                                    |\n");
-        printf("| 3- Tarde(12h atÈ 18h)                                   |\n");
-        printf("| 4- Noite(18h atÈ 00h)                                   |\n");
+        printf("| 2- Manh√£(06h √†s 12h)                                    |\n");
+        printf("| 3- Tarde(12h at√© 18h)                                   |\n");
+        printf("| 4- Noite(18h at√© 00h)                                   |\n");
         printf("0---------------------------------------------------------0\n");
         scanf("%d", &r[1]);
 
         while((r[1]!=1)&&(r[1]!=2)&&(r[1]!=3)&&(r[1]!=4)){
 
-            printf("\nValor atribuÌdo inv·lido\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+            printf("\nValor atribu√≠do inv√°lido\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
             scanf("%d", &r[1]);
 
         };
@@ -681,17 +681,17 @@ void ROT_REL(){
 
         system("cls");
         printf("0---------------------------------------------------------0\n");
-        printf("| Em qual hor·rio vocÍ costuma trabalhar?                 |\n");
+        printf("| Em qual hor√°rio voc√™ costuma trabalhar?                 |\n");
         printf("| 1- Madrugada(00h a 06h)                                 |\n");
-        printf("| 2- Manh„(06h ‡s 12h)                                    |\n");
-        printf("| 3- Tarde(12h atÈ 18h)                                   |\n");
-        printf("| 4- Noite(18h atÈ 00h)                                   |\n");
+        printf("| 2- Manh√£(06h √†s 12h)                                    |\n");
+        printf("| 3- Tarde(12h at√© 18h)                                   |\n");
+        printf("| 4- Noite(18h at√© 00h)                                   |\n");
         printf("0---------------------------------------------------------0\n");
         scanf("%d", &r[1]);
 
         while((r[1]!=1)&&(r[1]!=2)&&(r[1]!=3)&&(r[1]!=4)){
 
-            printf("\nValor atribuÌdo inv·lido\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+            printf("\nValor atribu√≠do inv√°lido\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
             scanf("%d", &r[1]);
 
         };
@@ -737,15 +737,15 @@ void ROT_REL(){
     system("cls");
 
     printf("0------------------------------------------------------------------------------------0\n");
-    printf("| VocÍ pratica um hobby, esporte, atividade ou ent„o alguma compromisso toda semana? |\n");
+    printf("| Voc√™ pratica um hobby, esporte, atividade ou ent√£o alguma compromisso toda semana? |\n");
     printf("| 1-Sim                                                                              |\n");
-    printf("| 2-N„o                                                                              |\n");
+    printf("| 2-N√£o                                                                              |\n");
     printf("0------------------------------------------------------------------------------------0\n");
     scanf("%d", &r[3]);
 
     while((r[3]!=1)&&(r[3]!=2)){
 
-        printf("\nValor atribuÌdo inv·lido\nINSIRA VALOR V¡LIDO (1 ou 2)->");
+        printf("\nValor atribu√≠do inv√°lido\nINSIRA VALOR V√ÅLIDO (1 ou 2)->");
         scanf("%d", &r[3]);
 
     };
@@ -760,17 +760,17 @@ void ROT_REL(){
         scanf("%[^\n]", atv);
 
         printf("0----------------------------------0\n");
-        printf("| Digite o hor·rio dessa atividade |\n");
+        printf("| Digite o hor√°rio dessa atividade |\n");
         printf("| 1- Madrugada(00h a 06h)          |\n");
-        printf("| 2- Manh„(06h ‡s 12h)             |\n");
-        printf("| 3- Tarde(12h atÈ 18h)            |\n");
-        printf("| 4- Noite(18h atÈ 00h)            |\n");
+        printf("| 2- Manh√£(06h √†s 12h)             |\n");
+        printf("| 3- Tarde(12h at√© 18h)            |\n");
+        printf("| 4- Noite(18h at√© 00h)            |\n");
         printf("0----------------------------------0\n");
         scanf("%d", &r[4]);
 
         while((r[4]!=1)&&(r[4]!=2)&&(r[4]!=3)&&(r[4]!=4)){
 
-            printf("\nValor atribuÌdo inv·lido\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+            printf("\nValor atribu√≠do inv√°lido\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
             scanf("%d", &r[4]);
 
         };
@@ -818,15 +818,15 @@ void ROT_REL(){
         system("cls");
 
         printf("0---------------------------------------------------------------------------------------------------0\n");
-        printf("| H· mais alguma atividade que deseja informar? Ex: Faxina, cozinhar, cuidar de um pet ou de alguÈm |\n");
+        printf("| H√° mais alguma atividade que deseja informar? Ex: Faxina, cozinhar, cuidar de um pet ou de algu√©m |\n");
         printf("| 1-Sim                                                                                             |\n");
-        printf("| 2-N„o                                                                                             |\n");
+        printf("| 2-N√£o                                                                                             |\n");
         printf("0---------------------------------------------------------------------------------------------------0\n");
         scanf("%d", &r[6]);
 
         while((r[6]!=1)&&(r[6]!=2)){
 
-            printf("\nValor atribuÌdo inv·lido\nINSIRA VALOR V¡LIDO (1 ou 2)->");
+            printf("\nValor atribu√≠do inv√°lido\nINSIRA VALOR V√ÅLIDO (1 ou 2)->");
             scanf("%d", &r[6]);
 
         };
@@ -845,17 +845,17 @@ void ROT_REL(){
             system("cls");
 
             printf("0-----------------------------------------------0\n");
-            printf("| Digite o turno que esta atividade È executada:|\n");
+            printf("| Digite o turno que esta atividade √© executada:|\n");
             printf("| 1- Madrugada(00h a 06h)                       |\n");
-            printf("| 2- Manh„(06h ‡s 12h)                          |\n");
-            printf("| 3- Tarde(12h atÈ 18h)                         |\n");
-            printf("| 4- Noite(18h atÈ 00h)                         |\n");
+            printf("| 2- Manh√£(06h √†s 12h)                          |\n");
+            printf("| 3- Tarde(12h at√© 18h)                         |\n");
+            printf("| 4- Noite(18h at√© 00h)                         |\n");
             printf("0-----------------------------------------------0\n");
             scanf("%d", &r[7]);
 
             while((r[7]!=1)&&(r[7]!=2)&&(r[7]!=3)&&(r[7]!=4)){
 
-                printf("\nValor atribuÌdo inv·lido\nINSIRA VALOR V¡LIDO (1, 2, 3 ou 4)->");
+                printf("\nValor atribu√≠do inv√°lido\nINSIRA VALOR V√ÅLIDO (1, 2, 3 ou 4)->");
                 scanf("%d", &r[7]);
 
             };
@@ -863,7 +863,7 @@ void ROT_REL(){
             system("cls");
 
             printf("0-----------------------------------------------------0\n");
-            printf("| Quantas vezes na semana essa atividade È executada? |\n");
+            printf("| Quantas vezes na semana essa atividade √© executada? |\n");
             printf("0-----------------------------------------------------0\n");
             scanf("%d", &r[8]);
 
@@ -910,7 +910,7 @@ void ROT_REL(){
             if(r[6] != 2)
 
             {
-                printf("valor inv·lido, deseja retornar e digitar um valor v·lido? \n1-Sim  \n2-N„o\n");
+                printf("valor inv√°lido, deseja retornar e digitar um valor v√°lido? \n1-Sim  \n2-N√£o\n");
                 scanf("%d", &r[6]);
             }
             break;
@@ -931,9 +931,9 @@ void ROT_REL(){
             printf("OBS:\n");
 
             printf("0------------------------------------------------------------------------------------------------------------------------0\n");
-            printf("| OS TURNOS COM MENOS PONTOS S√O OS MENOS INDICADOS PARA AGENDAR ATIVIDADES, VISTO QUE S√O OS MAIS PRODUTIVOS/OCUPADOS   |\n");
+            printf("| OS TURNOS COM MENOS PONTOS S√ÉO OS MENOS INDICADOS PARA AGENDAR ATIVIDADES, VISTO QUE S√ÉO OS MAIS PRODUTIVOS/OCUPADOS   |\n");
             printf("| OS TURNOS COM MESMA QUANTIDADE DE PONTOS TEM PRODUTIVIDADE SEMELHANTE                                                  |\n");
-            printf("| OS TURNOS COM MAIS PONTOS S√O INDICADOS PARA AGENDAR COMPROMISSOS                                                      |\n");
+            printf("| OS TURNOS COM MAIS PONTOS S√ÉO INDICADOS PARA AGENDAR COMPROMISSOS                                                      |\n");
             printf("0------------------------------------------------------------------------------------------------------------------------0\n\n");
 
 
